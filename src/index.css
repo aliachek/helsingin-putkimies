@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+  --color-primary: #69ff89;
+  --color-primary-dark: #01270a;
+  --color-accent: #5803ad;
+}
+
+@layer base {
+  body {
+    @apply font-sans text-black bg-white antialiased;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-bold tracking-tight;
+  }
+
+  /* Respect prefers-reduced-motion for all transitions and animations */
+  @media (prefers-reduced-motion: reduce) {
+
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+}
+
+/* Focus-visible ring for keyboard navigation (all interactive elements) */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+textarea:focus-visible,
+select:focus-visible {
+  @apply outline-2 outline-offset-2 outline-primary ring-0;
+}
+
+.glass-header {
+  @apply bg-white/80 backdrop-blur-md border-b border-black/5;
+}
+
+.btn-primary {
+  @apply bg-primary text-primary-dark px-8 py-4 rounded-full font-bold cursor-pointer transition-all duration-200 hover:shadow-lg hover:shadow-primary/20 active:scale-95;
+}
+
+.card-hover {
+  @apply cursor-pointer transition-all duration-300 hover:-translate-y-1 hover:shadow-xl;
+}

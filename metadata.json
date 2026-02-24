@@ -1,0 +1,5 @@
+{
+  "name": "Suomen Putkimestarit",
+  "description": "Premium plumbing services in Finland with 24/7 emergency support.",
+  "requestFramePermissions": ["geolocation"]
+}
