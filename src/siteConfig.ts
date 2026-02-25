@@ -43,7 +43,7 @@ const siteConfig: SiteConfig = {
         badge: '24H Päivystys',
         ctaPrimary: 'Pyydä tarjous',
         ctaSecondary: 'Soita heti:',
-        backgroundImage: 'https://picsum.photos/seed/helsinki-plumber/1920/1080',
+        backgroundImage: 'https://images.unsplash.com/photo-1541888046048-dc80c3524aee?q=80&w=1920&auto=format&fit=crop',
     },
 
     // ┌─────────────────────────────────────────────────────────────────┐
@@ -62,7 +62,6 @@ const siteConfig: SiteConfig = {
     trustBadges: [
         '100% Takuutyö',
         'SUPO-selvitetty henkilöstö',
-        '3.8/5 Google',
         'Ekologinen kalusto',
     ],
 

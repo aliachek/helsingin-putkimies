@@ -12,8 +12,8 @@ export default function HomePage() {
             <section className="relative h-screen min-h-[700px] flex items-center overflow-hidden" aria-label="Hero">
                 <div className="absolute inset-0 z-0">
                     <img
-                        src="https://picsum.photos/seed/helsinki-plumber/1920/1080"
-                        alt="Helsingin Putkimies Oy – Ammattitaitoista putkipalvelua"
+                        src={HERO.backgroundImage}
+                        alt={`${COMPANY.name} – Ammattitaitoista putkipalvelua`}
                         className="w-full h-full object-cover"
                         referrerPolicy="no-referrer"
                     />
@@ -90,7 +90,7 @@ export default function HomePage() {
                             </div>
                         </div>
                         <div className="relative">
-                            <img src="https://picsum.photos/seed/plumber-team/800/600" alt="Ammattitaitoinen tiimi" className="rounded-3xl shadow-2xl w-full" referrerPolicy="no-referrer" />
+                            <img src="https://images.unsplash.com/photo-1585704032915-c3400ca199e7?q=80&w=800&auto=format&fit=crop" alt="Ammattitaitoinen tiimi" className="rounded-3xl shadow-2xl w-full" referrerPolicy="no-referrer" />
                             <div className="absolute -bottom-6 -left-6 bg-primary text-primary-dark px-6 py-4 rounded-2xl font-bold shadow-xl">
                                 Perustettu {COMPANY.founded}
                             </div>
@@ -160,13 +160,7 @@ export default function HomePage() {
                             <h2 className="text-4xl md:text-5xl font-bold mb-6">Asiakkaamme suosittelevat</h2>
                             <p className="text-lg text-textMuted">Yli 20 vuotta tyytyväisiä asiakkaita Helsingin alueella.</p>
                         </div>
-                        <div className="flex items-center gap-4 bg-white p-4 rounded-2xl shadow-sm">
-                            <div className="flex gap-1">
-                                {[...Array(Math.floor(COMPANY.googleRating))].map((_, s) => <Star key={s} size={20} className="fill-yellow-400 text-yellow-400" />)}
-                                {COMPANY.googleRating % 1 > 0 && <Star size={20} className="text-yellow-400/30" />}
-                            </div>
-                            <span className="font-bold">{COMPANY.googleRating}/5 Google</span>
-                        </div>
+                        {/* Average rating removed per user request */}
                     </div>
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                         {REVIEWS.map((review, i) => (
