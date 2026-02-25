@@ -84,19 +84,19 @@ const siteConfig: SiteConfig = {
                 title: 'Putkiremontit',
                 description: 'Kattavat putki- ja linjasaneeraukset uudis- ja saneerauskohteisiin. Käytämme alan uusimpia menetelmiä ja materiaaleja.',
                 iconName: 'Wrench',
-                image: 'https://picsum.photos/seed/plumbing-reno/800/600',
+                image: 'https://images.unsplash.com/photo-1505798577917-a65157d3320a?q=80&w=800&auto=format&fit=crop', // Pipes / installations
             },
             {
                 title: '24H Päivystys',
                 description: 'Hätäpäivystys palvelee vuorokauden ympäri, vuoden jokaisena päivänä. Putkirikot ja kiireelliset korjaukset hoituvat nopeasti.',
                 iconName: 'Clock',
-                image: 'https://picsum.photos/seed/plumbing-emergency/800/600',
+                image: 'https://images.unsplash.com/photo-1607472586893-edb57cb31311?q=80&w=800&auto=format&fit=crop', // urgent repair / tools
             },
             {
                 title: 'Märkätila-asennukset',
                 description: 'Kylpyhuoneiden ja pesutilojen putkityöt ammattitaidolla. Suunnittelu, asennus ja viimeistely avaimet käteen -periaatteella.',
                 iconName: 'ShowerHead',
-                image: 'https://picsum.photos/seed/bathroom-install/800/600',
+                image: 'https://images.unsplash.com/photo-1620626011761-996317b8d101?q=80&w=800&auto=format&fit=crop', // beautiful modern bathroom
             },
         ],
         fullList: [
