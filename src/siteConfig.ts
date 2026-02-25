@@ -153,22 +153,22 @@ const siteConfig: SiteConfig = {
     // └─────────────────────────────────────────────────────────────────┘
     reviews: [
         {
-            name: 'Mikko T.',
+            name: 'Mahutti Korhonen',
             location: 'Helsinki',
-            text: 'Putki alkoi vuotaa sunnuntai-iltana. Soitin päivystysnumeroon ja putkimies oli paikalla tunnin sisällä. Vuoto korjattu nopeasti ja ammattitaidolla. Erittäin hyvää palvelua!',
+            text: 'Kävi tänään putki mies nimeltään KILLERI aivan mahtavaa työtä. Ystävällinen, osaava ja asiallinen. Nopea ja paras palvelu. KIITOS KILLERILLE🙏',
             rating: 5,
         },
         {
-            name: 'Anna K.',
+            name: 'Olli x',
             location: 'Helsinki',
-            text: 'Kylpyhuoneen putkiremontti valmistui etuajassa ja budjetti piti. Asentajat olivat kohteliaita, siistejä ja selittivät aina mitä tekevät. Suosittelemme lämpimästi!',
+            text: 'Tilasin useita lyhyitä töitä Helsingin Putkimies Oy:ltä. Palvelu oli erittäin asiallista, työt onnistuivat melko lyhyillä varoajoilla, työn tekijä oli ammattilainen niin työn laadussa kuin asiakaspalvelussa ja hinta oli kohdallaan. Tästä laadusta voisin maksaa enemmänkin. Suosittelen lämpimästi!',
             rating: 5,
         },
         {
-            name: 'Jari P.',
+            name: 'Tomi V.',
             location: 'Helsinki',
-            text: 'Taloyhtiömme valitsi Helsingin Putkimies Oy:n linjasaneeraukseen. Työ eteni aikataulussa, viestintä toimi ja lopputulos on erinomainen. Ammattitaitoista porukkaa.',
-            rating: 4,
+            text: 'Lämminvesivaraajan vuotava varoventtiili käytiin vaihtamassa heti yhteydenottopäivänä. Palvelu oli ystävällistä ja ennen kaikkea nopeaa. Hintakin varsin kohtuullinen.',
+            rating: 5,
         },
     ],
 
