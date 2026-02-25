@@ -90,7 +90,7 @@ const siteConfig: SiteConfig = {
                 title: '24H Päivystys',
                 description: 'Hätäpäivystys palvelee vuorokauden ympäri, vuoden jokaisena päivänä. Putkirikot ja kiireelliset korjaukset hoituvat nopeasti.',
                 iconName: 'Clock',
-                image: 'https://images.unsplash.com/photo-1607472586893-edb57cb31311?q=80&w=800&auto=format&fit=crop', // urgent repair / tools
+                image: 'https://images.unsplash.com/photo-1584622650111-993a426fbf0a?q=80&w=800&auto=format&fit=crop', // urgent repair / tools
             },
             {
                 title: 'Märkätila-asennukset',
