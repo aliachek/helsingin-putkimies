@@ -84,7 +84,7 @@ const siteConfig: SiteConfig = {
                 title: 'Putkiremontit',
                 description: 'Kattavat putki- ja linjasaneeraukset uudis- ja saneerauskohteisiin. Käytämme alan uusimpia menetelmiä ja materiaaleja.',
                 iconName: 'Wrench',
-                image: 'https://images.unsplash.com/photo-1505798577917-a65157d3320a?q=80&w=800&auto=format&fit=crop', // Pipes / installations
+                image: '/service-1.jpg',
             },
             {
                 title: '24H Päivystys',
